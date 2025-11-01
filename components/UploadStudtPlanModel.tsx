@@ -43,7 +43,7 @@ export default function UploadStudtPlanModel({ onClose }: UploadStudtPlanModelPr
             <DialogPanel className="w-full max-w-[663px] rounded-xl shadow-xxl bg-white p-6 backdrop-blur-2xl">
               <h2 className="text-lg font-sora text-black2 font-semibold">Upload Study plan</h2>
               <p className="text-sm text-gray3">
-                Please upload your study plan from edugate as PDF or a screenshot
+                Please upload your study plan from edugate as a screenshot
               </p>
 
               <div className="w-full mt-3 relative">
