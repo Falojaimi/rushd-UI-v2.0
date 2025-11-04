@@ -59,7 +59,7 @@ export default function UploadStudtPlanModel({ onClose }: UploadStudtPlanModelPr
       formData.append('source', 'upload-modal')
 
       // 🚀 Send file to your n8n webhook
-      const response = await fetch('http://144.91.68.16:5678/webhook-test/chatbox-upload', {
+      const response = await fetch('https://n8n.rushd.site/webhook-test/chatbox-upload', {
         method: 'POST',
         body: formData,
       })
